@@ -85,6 +85,7 @@ export function ConsolePage() {
       LOCAL_RELAY_SERVER_URL
         ? { url: LOCAL_RELAY_SERVER_URL }
         : {
+            url: 'wss://openaiemanuel001.openai.azure.com/openai/realtime',
             apiKey: apiKey,
             dangerouslyAllowAPIKeyInBrowser: true,
           }
